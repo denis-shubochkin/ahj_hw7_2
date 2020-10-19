@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/0kch117myactvfe7?svg=true)](https://ci.appveyor.com/project/denis-shubochkin/ahj-hw7-2)
+
 Правила сдачи задания:
 
 1. **Важно**: в рамках этого ДЗ можно использовать npm (а значит, никакого `yarn.lock` в репозитории быть не должно)
