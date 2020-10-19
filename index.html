@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Document</title>
+<link href="main.css" rel="stylesheet"></head>
+<body>
+  <div class="tickets-form">
+    <div class="header">
+      <button class="add-button">Добавить тикет</button>
+    </div>
+    <div class="tickets-list-form">
+      <div class="ticket" id="1">
+        <div class="list-element status"></div> 
+        <div class="list-element name">Название тикета</div>
+        <div class="list-element date">01.01.2001 01:00</div>
+        <div class="list-element action">
+          <button class="edit-button"></button>
+          <button class="delete-button"></button>
+        </div>
+      </div>
+      <div class="ticket">
+        <div class="list-element status"></div> 
+        <div class="list-element name">Название тикета</div>
+        <div class="list-element date">01.01.2001 01:00</div>
+        <div class="list-element action">
+          <button class="edit-button"></button>
+          <button class="delete-button"></button>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="edit-form">
+      <div class="edit-name-form edit-input-block">
+      <label class="edit-name-label">Краткое описание</label>
+      <input class="edit-name-input input" type="text">
+      </div>
+      <div class="edit-desc-form edit-input-block">
+        <label class="edit-desc-label">Подробное описание</label>
+        <textarea class="edit-desc-input textarea" type="text"></textarea>
+        </div>
+        <div class="edit-buttons">
+          <button class="button-save edit-form-button">ОК</button>
+          <button class="button-cancel edit-form-button">Отмена</button>
+        </div>
+    </div>
+</div>
+<div class="hidden-input">Введите описание тикета</div>
+<script type="text/javascript" src="main.js"></script></body>
+<script src="./js/app.js"></script>
+</html>
