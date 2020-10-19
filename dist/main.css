@@ -1,0 +1,147 @@
+body {
+  color: #000000;
+  background: linear-gradient( #bbb, transparent 1px), linear-gradient( 90deg, #bbb, transparent 1px);
+  background-size: 15px 15px;
+  background-position: center center;
+}
+
+.tickets-form {
+  width: 700px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-button {
+  padding-top: 2px;
+  width: 120px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color: white;
+  margin-left: auto;
+}
+.tickets-list-form {
+    margin-top: 10px;
+    background-color: white;
+    border: 1px solid #000000;
+}
+
+.ticket {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  min-height: 50px;
+}
+
+.ticket:not(:last-child) {
+    border-bottom: 1px solid black;
+}
+
+.list-element {
+  margin-top: 10px;
+}
+
+.status {
+    width: 30px;
+    height: 30px;
+    background-image: url(20e530228fbba7a99d1557bcfbb5cdb5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-sizing: border-box;
+}
+
+.marked {
+    background-image: url(30001ba305cf19bebfb595bcb8c70613.png);
+}
+
+.action {
+    display: inline-block; 
+}
+
+.edit-button {
+  background-image: url(f51c68646f765e014c7f99ad8547de68.png);
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
+.delete-button {
+  background-image: url(1d5690fcdee4dc141bf8ec984a8efa78.png);
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
+.edit-form {
+  display: none;
+  position: absolute;
+  background-color: white;
+  z-index: 0;
+  border: 0.5px solid #000000;
+  top: 30px;
+  padding: 0px 20px 20px 20px;
+}
+
+.edit-input-block {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.input {
+  margin-top: 5px;
+  width: 200px;
+  border-radius: 7px;
+  border: 0.5px solid #000000;
+  height: 20px;
+}
+
+.textarea {
+    margin-top: 5px;
+    width: 200px;
+    border-radius: 7px;
+    border: 0.5px solid #000000;
+    height: 40px;
+    resize: none;
+  }
+  
+
+.edit-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin-top: 20px;
+  
+}
+
+.edit-form-button {
+  padding: 5px 15px 5px 15px;
+  border-radius: 7px;
+  border: 0.5px solid #000000;
+  background-color: white;
+}
+
+.hidden-input {
+  display: none;
+  position: absolute;
+  border: 0.5px solid red;
+  font-size: small;
+}
+
+
+/*# sourceMappingURL=main.css.map*/
