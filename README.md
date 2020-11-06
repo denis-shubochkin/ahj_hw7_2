@@ -1,3 +1,5 @@
+https://denis-shubochkin.github.io/ahj_hw7_2/
+
 [![Build status](https://ci.appveyor.com/api/projects/status/0kch117myactvfe7?svg=true)](https://ci.appveyor.com/project/denis-shubochkin/ahj-hw7-2)
 
 Правила сдачи задания:  
