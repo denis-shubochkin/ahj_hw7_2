@@ -29,7 +29,7 @@ body {
     border: 1px solid #000000;
 }
 
-.ticket {
+.main-info {
   padding-left: 10px;
   padding-right: 10px;
   background-color: white;
@@ -56,7 +56,9 @@ body {
     background-size: contain;
     box-sizing: border-box;
 }
-
+.name {
+  width: 250px;
+}
 .marked {
     background-image: url(30001ba305cf19bebfb595bcb8c70613.png);
 }
@@ -94,7 +96,36 @@ body {
   z-index: 0;
   border: 0.5px solid #000000;
   top: 30px;
+  left: 150px;
   padding: 0px 20px 20px 20px;
+}
+
+.delete-confirm-form {
+  display: none;
+  position: absolute;
+  background-color: white;
+  z-index: 0;
+  border: 0.5px solid #000000;
+  top: 30px;
+  left: 150px;
+  padding: 20px 20px 20px 20px;
+  width: 200px;
+  text-align: center;
+}
+
+
+.delete-confirm-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin-top: 20px;
+}
+
+.confirm-button {
+  padding: 5px 15px 5px 15px;
+  border-radius: 7px;
+  border: 0.5px solid #000000;
+  background-color: white;
 }
 
 .edit-input-block {
@@ -143,5 +174,10 @@ body {
   font-size: small;
 }
 
+.desc {
+  display: block;
+  margin-left: 50px;
+  max-width: 300px;
+}
 
 /*# sourceMappingURL=main.css.map*/
