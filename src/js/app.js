@@ -83,7 +83,7 @@ function getTicketbyId(id) {
   params.append('method', 'ticketById');
   params.append('id', id);
   const xhr = new XMLHttpRequest();
-  xhr.open('GET', `http://localhost:7070/?${params}`);
+  xhr.open('GET', `https://zippo1095-ahj-hw7-2.herokuapp.com:7070/?${params}`);
   xhr.send();
   xhr.addEventListener('load', () => {
     if (xhr.status >= 200 && xhr.status < 300) {
@@ -104,7 +104,7 @@ function getTicketDesc(id) {
   params.append('method', 'ticketById');
   params.append('id', id);
   const xhr = new XMLHttpRequest();
-  xhr.open('GET', `http://localhost:7070/?${params}`);
+  xhr.open('GET', `https://zippo1095-ahj-hw7-2.herokuapp.com:7070/?${params}`);
   xhr.send();
   xhr.addEventListener('load', () => {
     if (xhr.status >= 200 && xhr.status < 300) {
@@ -181,7 +181,7 @@ function getTickets() {
   const params = new URLSearchParams();
   params.append('method', 'allTickets');
   const xhr = new XMLHttpRequest();
-  xhr.open('GET', `http://localhost:7070/?${params}`);
+  xhr.open('GET', `https://zippo1095-ahj-hw7-2.herokuapp.com:7070/?${params}`);
   xhr.send();
   xhr.addEventListener('load', () => {
     if (xhr.status >= 200 && xhr.status < 300) {
@@ -214,7 +214,7 @@ function postTicket(p) {
   params.append('description', p.description);
   params.append('created', now);
   const xhr = new XMLHttpRequest();
-  xhr.open('POST', `http://localhost:7070/?${params}`);
+  xhr.open('POST', `https://zippo1095-ahj-hw7-2.herokuapp.com:7070/?${params}`);
   xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
   xhr.send(JSON.stringify(params));
   xhr.addEventListener('load', () => {
@@ -240,7 +240,7 @@ function patchTicket(p) {
   params.append('description', p.description);
   params.append('created', p.created);
   const xhr = new XMLHttpRequest();
-  xhr.open('PATCH', `http://localhost:7070/?${params}`);
+  xhr.open('PATCH', `https://zippo1095-ahj-hw7-2.herokuapp.com:7070/?${params}`);
   xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
   xhr.send(JSON.stringify(params));
   xhr.addEventListener('load', () => {
@@ -262,7 +262,7 @@ function delTicket(id) {
   params.append('method', 'delTicket');
   params.append('id', id);
   const xhr = new XMLHttpRequest();
-  xhr.open('DELETE', `http://localhost:7070/?${params}`);
+  xhr.open('DELETE', `https://zippo1095-ahj-hw7-2.herokuapp.com:7070/?${params}`);
   xhr.send();
   xhr.addEventListener('load', () => {
     if (xhr.status >= 200 && xhr.status < 300) {
